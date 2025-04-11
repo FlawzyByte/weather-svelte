@@ -1,0 +1,57 @@
+main {
+    max-width: 1200px;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.text-red-500 {
+    color: #ef4444;
+}
+
+.text-blue-500 {
+    color: #3b82f6;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem; /* Add this line to create space between text and input fields */
+}
+
+.input-container input, .input-container button {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.forecast-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 1.5s ease-in-out;
+    perspective: 1000px;
+}
+
+.forecast-card.rotate-360 {
+    transform: rotateY(360deg);
+}
+
+.card-content.hidden {
+    display: none;
+}
+
+.additional-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1rem;
+}
