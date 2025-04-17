@@ -6,7 +6,6 @@
   <div class="container mx-auto py-6 px-4 flex justify-between items-center">
     <div class="flex space-x-4">
       <a href="/about" class="footer-link" aria-label="About Us">About</a>
-      <a href="/contact" class="footer-link" aria-label="Contact Us">Contact</a>
     </div>
     <div class="flex items-center space-x-4">
       <a href={githubUrl} target="_blank" rel="noopener noreferrer" class="footer-link" aria-label="GitHub Account">
