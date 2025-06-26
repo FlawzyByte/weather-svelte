@@ -1,3 +1,8 @@
+A descriptive video about the website and how it works:
+
+https://github.com/user-attachments/assets/8e251236-92bc-46b9-a958-4ec1c5754473
+
+
 # sv
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
